@@ -12,6 +12,7 @@
 		04AC03CA1F864D570009C0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC03C81F864D570009C0E4 /* Main.storyboard */; };
 		04AC03CC1F864D570009C0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC03CB1F864D570009C0E4 /* Assets.xcassets */; };
 		04AC03CF1F864D570009C0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC03CD1F864D570009C0E4 /* LaunchScreen.storyboard */; };
+		04AC03D81F864F4E0009C0E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AC03D71F864F4E0009C0E4 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04AC03CB1F864D570009C0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AC03CE1F864D570009C0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AC03D01F864D570009C0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AC03D71F864F4E0009C0E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AC03D81F864F4E0009C0E4 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				04AC03C31F864D570009C0E4 /* LocationAware */,
 				04AC03C21F864D570009C0E4 /* Products */,
+				04AC03D61F864F4E0009C0E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				04AC03D01F864D570009C0E4 /* Info.plist */,
 			);
 			path = LocationAware;
+			sourceTree = "<group>";
+		};
+		04AC03D61F864F4E0009C0E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AC03D71F864F4E0009C0E4 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

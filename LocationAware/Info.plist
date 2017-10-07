@@ -28,6 +28,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>I don&apos;t need this.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To give you infrmation on your current whereabout.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
